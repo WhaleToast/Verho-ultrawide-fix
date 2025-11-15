@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>latestmajor</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="0Harmony">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\BepInEx\core\0Harmony.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="BepInEx">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\BepInEx\core\BepInEx.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.TextMeshPro">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UI">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\UnityEngine.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UIModule">
+        <HintPath>..\..\..\..\..\mnt\nvme\SteamLibrary\steamapps\common\Verho - Curse of Faces\Verho_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
