@@ -33,7 +33,7 @@ Use the x64 version
 
 3. Place it into:
 
-<VerhoFolder>/BepInEx/plugins/CustomResolution/
+<VerhoFolder>/BepInEx/plugins/
 
 
 Create the folder if it does not exist.
@@ -70,7 +70,7 @@ This produces stable UI across all aspect ratios.
 ## Uninstalling
 Delete:
 
-<VerhoFolder>/BepInEx/plugins/CustomResolution/
+<VerhoFolder>/BepInEx/plugins/CustomResolution.dll
 
 
 The game will revert to its default behavior.
